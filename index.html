@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search App</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <h1 class="animate__animated animate__bounce">Image Search Application</h1>
+    <form action="" onsubmit="searchImages(event)">
+        <input type="text" id="search-input" placeholder="Search for images">
+        <button id="search-button" onclick="searchImages()">Search</button>
+    </form>  
+    
+    <div class="search-results">
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1578286676359-08ea352602f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <a href="https://unsplash.com/photos/blue-petaled-flowers-5pJ1XUmbG1A" target="_blank">Flowers you may like</a>
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1526724038726-3007ffb8025f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <a href="https://unsplash.com/photos/person-doing-yoga-on-seashore-during-daytime-2pUP1Ts1bmo" target="_blank">Peaceful Yoga</a>
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1488866022504-f2584929ca5f?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <a href="https://unsplash.com/photos/mountains-with-trees-under-white-star-at-night-L95xDkSSuWw" target="_blank">Under the Light of million stars</a>
+        </div>
+        
+    </div>
+
+    <button id="show-more-button">Show More</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>
